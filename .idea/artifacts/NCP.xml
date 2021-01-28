@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NCP">
+    <output-path>$PROJECT_DIR$/../LocalHost/plugins</output-path>
+    <root id="archive" name="NCP.jar">
+      <element id="module-output" name="nocheatplus" />
+      <element id="library" level="project" name="Maven: com.comphenix.executors:BukkitExecutors:1.1-SNAPSHOT" />
+      <element id="module-output" name="ncpbuildbase" />
+      <element id="module-output" name="ncpcommons" />
+      <element id="module-output" name="ncpcompatbukkit" />
+      <element id="library" level="project" name="Maven: com.comphenix.protocol:ProtocolLib:4.5.0" />
+      <element id="library" level="project" name="Maven: cglib:cglib-nodep:3.2.5" />
+      <element id="module-output" name="ncpcompatprotocollib" />
+      <element id="library" level="project" name="Maven: org.bukkit:bukkit:1.13-R0.1-SNAPSHOT" />
+      <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
+      <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" />
+      <element id="library" level="project" name="Maven: junit:junit:4.10" />
+      <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.1" />
+      <element id="library" level="project" name="Maven: com.google.guava:guava:21.0" />
+      <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.0" />
+      <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.21" />
+      <element id="module-output" name="ncpcore" />
+      <element id="module-output" name="ncpplugin" />
+    </root>
+  </artifact>
+</component>

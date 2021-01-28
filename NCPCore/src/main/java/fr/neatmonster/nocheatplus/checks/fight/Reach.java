@@ -81,7 +81,7 @@ public class Reach extends Check {
         // Adaption amount for dynamic range.
         final double DYNAMIC_STEP = cc.reachReduceStep / SURVIVAL_DISTANCE; // 0.15
 
-        final double distanceLimit = player.getGameMode() == GameMode.CREATIVE ? CREATIVE_DISTANCE : SURVIVAL_DISTANCE + getDistMod(damaged);
+        final double distanceLimit = player.getGameMode() == GameMode.CREATIVE ? CREATIVE_DISTANCE : 3 + getDistMod(damaged);
         final double distanceMin = (distanceLimit - DYNAMIC_RANGE) / distanceLimit;
 
         final double height = damagedIsFake ? (damaged instanceof LivingEntity ? ((LivingEntity) damaged).getEyeHeight() : 1.75) : mcAccess.getHandle().getHeight(damaged);
@@ -127,6 +127,8 @@ public class Reach extends Check {
             // Silent cancel.
             if (cc.reachPenalty > 0) {
                 data.attackPenalty.applyPenalty(cc.reachPenalty / 2);
+                Improbable.check(player, (float) violation / 2f, System.currentTimeMillis(),
+                        "fight.reach", pData);
             }
             cancel = true;
             Improbable.feed(player, (float) (lenpRel - distanceLimit * reachMod) / 4f, System.currentTimeMillis());

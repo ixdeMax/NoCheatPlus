@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ncpbuildbase" />
+        <module name="ncpcommons" />
+        <module name="ncpcompatprotocollib" />
+        <module name="ncpplugin" />
+        <module name="ncpcore" />
+        <module name="ncpcompatbukkit" />
+      </profile>
+      <profile name="Annotation profile for NoCheatPlus Parent" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nocheatplus" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ncpbuildbase" target="1.6" />
+      <module name="ncpcommons" target="1.6" />
+      <module name="ncpcompatbukkit" target="1.6" />
+      <module name="ncpcompatprotocollib" target="1.6" />
+      <module name="ncpcore" target="1.6" />
+      <module name="ncpplugin" target="1.6" />
+      <module name="nocheatplus" target="1.5" />
+      <module name="nocheatplus-parent" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

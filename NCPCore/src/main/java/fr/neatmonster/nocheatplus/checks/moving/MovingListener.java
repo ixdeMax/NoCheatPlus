@@ -915,6 +915,8 @@ public class MovingListener extends CheckListener implements TickListener, IRemo
             data.clearFlyData();
         }
 
+
+
         // Morepackets.
         if (pData.isCheckActive(CheckType.MOVING_MOREPACKETS, player) 
                 && (newTo == null || data.isMorePacketsSetBackOldest())) {

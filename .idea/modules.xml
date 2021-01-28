@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NCPBuildBase/ncpbuildbase.iml" filepath="$PROJECT_DIR$/NCPBuildBase/ncpbuildbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NCPCommons/ncpcommons.iml" filepath="$PROJECT_DIR$/NCPCommons/ncpcommons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NCPCompatBukkit/ncpcompatbukkit.iml" filepath="$PROJECT_DIR$/NCPCompatBukkit/ncpcompatbukkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NCPCompatProtocolLib/ncpcompatprotocollib.iml" filepath="$PROJECT_DIR$/NCPCompatProtocolLib/ncpcompatprotocollib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NCPCore/ncpcore.iml" filepath="$PROJECT_DIR$/NCPCore/ncpcore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NCPPlugin/ncpplugin.iml" filepath="$PROJECT_DIR$/NCPPlugin/ncpplugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NoCheatPlus/nocheatplus.iml" filepath="$PROJECT_DIR$/NoCheatPlus/nocheatplus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nocheatplus-parent.iml" filepath="$PROJECT_DIR$/nocheatplus-parent.iml" />
+    </modules>
+  </component>
+</project>

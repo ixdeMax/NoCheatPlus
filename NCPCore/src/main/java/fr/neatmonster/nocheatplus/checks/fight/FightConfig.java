@@ -119,7 +119,7 @@ public class FightConfig extends ACheckConfig {
 
         noSwingActions = config.getOptimizedActionList(ConfPaths.FIGHT_NOSWING_ACTIONS, Permissions.FIGHT_NOSWING);
 
-        reachSurvivalDistance = config.getDouble(ConfPaths.FIGHT_REACH_SURVIVALDISTANCE, 3.5, 6.0, 4.4);
+        reachSurvivalDistance = 3.8;
         reachPenalty = config.getLong(ConfPaths.FIGHT_REACH_PENALTY);
         reachPrecision = config.getBoolean(ConfPaths.FIGHT_REACH_PRECISION);
         reachReduce = config.getBoolean(ConfPaths.FIGHT_REACH_REDUCE);
